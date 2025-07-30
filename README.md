@@ -43,8 +43,8 @@ php artisan migrate
 
 bash
 
-git clone https://github.com/albaraf/inventaris_lab_elektronik.git
+git clone https://github.com/Reik11/inventaris_barang_elektronik_Lab.git
 
-cd inventaris_lab_elektronik
+cd nventaris_barang_elektronik_Lab
 
 http://127.0.0.1:8000/barang
