@@ -7,44 +7,42 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Laravel
 
-# 📦 Inventaris Lab Elektronik
+# Inventaris Barang Elektronik Lab
 
 Aplikasi CRUD Laravel 12 untuk manajemen inventaris barang elektronik laboratorium.
 
 ---
 
-## 🚀 Fitur
+## Fitur Yang Sudah DIterapkan
 
-✅ CRUD Barang Elektronik  
-✅ Pencarian barang (nama/kode)  
-✅ Validasi data unik (nama & kode)  
-✅ Pagination  
-✅ Desain responsif (Tailwind + FluxUI)
+ CRUD Barang Elektronik                 ✅
+ Pencarian barang (nama/kode)           ✅
+ Validasi data unik (nama & kode)       ✅
+ Pagination                             ✅
+ Desain responsif (Tailwind + FluxUI)   ✅
 
 ---
-## ⚙️ Konfigurasi Database
+## Konfigurasi Database
 
-1️⃣ **Buat Database**
+**Buat Database**
 
-Buka **phpMyAdmin**, **HeidiSQL**, atau terminal MySQL, lalu buat database baru:
+Buka **phpMyAdmin** lalu buat database baru:
 
-mysql
-
-CREATE DATABASE inventaris_lab;
+CREATE DATABASE lari;
 
 php artisan migrate
 
 ---
-## ⚙️ Cara Jalankan
+## Cara Jalankan
 
-1️⃣ **Clone Project**
-
-bash
+ **Clone Project**
 
 git clone https://github.com/Reik11/inventaris_barang_elektronik_Lab.git
 
-cd nventaris_barang_elektronik_Lab
+cd inventaris_barang_elektronik_Lab
+
+composer install untuk mmengistall dependensi yang di butuhkan
 
 http://127.0.0.1:8000/barang
