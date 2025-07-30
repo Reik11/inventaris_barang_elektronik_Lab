@@ -37,9 +37,9 @@ php artisan migrate
 ---
 ## Cara Jalankan
 
- **Clone Project**
+ langkaah perrtama ialah **Clone Project** 
 
-git clone https://github.com/Reik11/inventaris_lab_elektronik.git
+buka terminal terlebih dahulu lalui ketik git clone https://github.com/Reik11/inventaris_lab_elektronik.git
 
 cd inventaris_barang_elektronik_Lab
 
