@@ -39,7 +39,7 @@ php artisan migrate
 
  **Clone Project**
 
-git clone https://github.com/Reik11/inventaris_barang_elektronik_Lab.git
+git clone https://github.com/Reik11/inventaris_lab_elektronik.git
 
 cd inventaris_barang_elektronik_Lab
 
