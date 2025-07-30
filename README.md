@@ -30,7 +30,7 @@ Aplikasi CRUD Laravel 12 untuk manajemen inventaris barang elektronik laboratori
 
 Buka **phpMyAdmin** lalu buat database baru:
 
-CREATE DATABASE lari;
+CREATE DATABASE lari; (saya membuat database dengan nama lari)
 
 php artisan migrate
 
