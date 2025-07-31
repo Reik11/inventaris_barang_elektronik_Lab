@@ -56,4 +56,5 @@ composer install untuk mmengistall dependensi yang di butuhkan
 npm run build untuk mengkompile css dan flux nya
 
 php artisan serve untuk menjalankan nya
-http://127.0.0.1:8000/barang
+
+lalu akan terhubung ke http://127.0.0.1:8000/barang
