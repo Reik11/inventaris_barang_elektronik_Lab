@@ -32,17 +32,27 @@ Buka **phpMyAdmin** lalu buat database baru:
 
 CREATE DATABASE lari; (saya membuat database dengan nama lari)
 
+ubah file .env example nya dengan menghapus example nya lalu sesuai kan ini
+
+DB_DATABASE=lari
+DB_USERNAME=root
+DB_PASSWORD=
+
+setelah itu buka terminal lalu ketik 
+
 php artisan migrate
 
 ---
 ## Cara Jalankan
 
- langkaah perrtama ialah **Clone Project** 
+ langkaah pertama ialah **Clone Project** 
 
-buka terminal terlebih dahulu lalui ketik git clone https://github.com/Reik11/inventaris_lab_elektronik.git
+buka terminal terlebih dahulu lalu ketik git clone https://github.com/Reik11/inventaris_lab_elektronik.git
 
-cd inventaris_barang_elektronik_Lab
+cd inventaris_lab_elektronik
 
 composer install untuk mmengistall dependensi yang di butuhkan
+
+npm run build untuk mengkompile css dan flux nya
 
 http://127.0.0.1:8000/barang
